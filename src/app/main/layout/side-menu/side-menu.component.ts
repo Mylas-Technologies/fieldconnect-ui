@@ -28,6 +28,6 @@ const sideMenu = [
   {
     icon: 'person',
     name: 'Profile',
-    path: 'profile', 
+    path: '/main/profile', 
   },
 ]

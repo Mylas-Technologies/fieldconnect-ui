@@ -5,7 +5,7 @@
 
             <ul class="nav nav-pills flex-column mb-auto">
               <li class="nav-item" *ngFor="let sideMenuItem of sideMenuItems">
-                <a href="#" class="nav-link sidemenulist" >          
+                <a href="#" class="nav-link sidemenulist"  [routerLink]="sideMenuItem.path"  [routerLinkActive]="['is-active-sub']">          
                   <mat-icon mat-list-icon class="icolor"> {{sideMenuItem.icon}}</mat-icon> <div> {{sideMenuItem.name}}</div> 
                 </a>
               </li>

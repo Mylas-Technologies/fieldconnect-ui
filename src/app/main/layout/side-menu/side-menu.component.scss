@@ -6,6 +6,9 @@
     align-items: center;
     gap: 10px;
 }
+
+
+
 .sidemenu{
     .menu{
         margin-top: 3rem;
@@ -41,4 +44,14 @@
 
 }
     
+}
+.is-active-sub {
+    font-size: 18px;
+        background-color: #2960DD !important;
+        color: #fff !important;
+        border-radius: 11px;
+        padding: 12px 10px;
+        .icolor{
+            color: #fff !important;
+        }
 }

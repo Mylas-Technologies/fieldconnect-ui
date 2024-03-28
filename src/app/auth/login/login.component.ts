@@ -46,7 +46,7 @@ export class LoginComponent   implements OnInit{
     if(this.login.controls['email'].value == this.user?.email && 
     this.login.controls['password'].value == this.user?.password  ){
       localStorage.setItem('user', JSON.stringify(this.user));
-      this.router.navigate(['/main'])
+      this.router.navigate(['/main/profile'])
     } else {
       this.loginErrormsg = true
     }
