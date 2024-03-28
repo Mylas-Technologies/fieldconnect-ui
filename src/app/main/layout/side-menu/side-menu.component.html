@@ -1,0 +1,18 @@
+<section class="sidemenu">
+    <div class="imglogo"><img src="../../../../assets/img/Assignix_logo.png"></div>
+ 
+        <div class="menu" >
+
+            <ul class="nav nav-pills flex-column mb-auto">
+              <li class="nav-item" *ngFor="let sideMenuItem of sideMenuItems">
+                <a href="#" class="nav-link sidemenulist" >          
+                  <mat-icon mat-list-icon class="icolor"> {{sideMenuItem.icon}}</mat-icon> <div> {{sideMenuItem.name}}</div> 
+                </a>
+              </li>
+
+            </ul>
+
+
+          </div>
+
+</section>

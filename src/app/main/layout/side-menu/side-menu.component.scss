@@ -1,0 +1,44 @@
+.imglogo{
+    margin: 10px 0px;
+}
+.sidemenulist{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.sidemenu{
+    .menu{
+        margin-top: 3rem;
+   
+    ul {
+        list-style: none;
+        margin: 0px;
+        padding: 0px;
+    }
+    li{
+        margin: 9x 0px;
+    }
+    a{
+        font-size: 18px;
+        color: #464255;
+        padding: 12px 10px;
+        background-color: transparent;
+        border-radius: 11px;
+        .icolor{
+            color: #B9BBBD;
+        }
+    }
+    a:hover{
+        font-size: 18px;
+        background-color: #2960DD;
+        color: #fff;
+        border-radius: 11px;
+        padding: 12px 10px;
+        .icolor{
+            color: #fff;
+        }
+    }
+
+}
+    
+}
